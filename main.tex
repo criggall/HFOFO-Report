@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{cite}
+
+% Hyperlink preferences:
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+% Section title formatting:
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Spacing:
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0em}
+
+% Title:
+\title{\textbf{Title}}
+\author[1]{Author}
+\affil[1]{\textit{Institution}}
+
+% Remove date:
+\date{}
+
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%
+%%% ABSTRACT %%%
+%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+
+Add an abstract here.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%
+%%% SECTION %%%
+%%%%%%%%%%%%%%%
+
+\section{Section}
+Add text here.
+
+\subsection{Subsection}
+Add text here. Maybe even add a citation \cite{key}.
+
+%%%%%%%%%%%%%%%%%%
+%%% REFERENCES %%%
+%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
